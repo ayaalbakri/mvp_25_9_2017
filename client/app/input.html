@@ -1,0 +1,21 @@
+<div>
+	<form method="POST">
+		student name :<input type="text"  ng-model="name" name="name">
+		student mark :<input type="number"  ng-model="mark" name="mark">
+		<input type="submit" value="Add Mark" ng-click="addStudent()"></button>
+	</form>
+</div>
+
+<!-- $(function () {
+    $('button').on('click', function () {
+        $.ajax({
+        	type: "POST",
+            url: 'http://170.0.0.1:3000/',
+            data: {
+                stdname: {{name}},
+                stdmark : {{mark}}
+            },
+            dataType : 'json'
+        });
+    });
+}); -->
